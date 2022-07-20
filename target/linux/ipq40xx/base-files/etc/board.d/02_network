@@ -30,7 +30,8 @@ ipq40xx_setup_interfaces()
 	cilab,meshpoint-one|\
 	glinet,gl-b2200|\
 	mikrotik,cap-ac|\
-	netgear,wac510)
+	netgear,wac510|\
+    linksys,whw03v2)
 		ucidef_set_interfaces_lan_wan "lan" "wan"
 		;;
 	aruba,ap-303|\

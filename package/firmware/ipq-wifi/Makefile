@@ -33,6 +33,7 @@ ALLWIFIBOARDS:= \
 	glinet_gl-b2200 \
 	glinet_gl-s1300 \
 	linksys_ea8300 \
+    linksys_whw03v2 \
 	p2w_r619ac \
 	qxwlan_e2600ac-c1 \
 	qxwlan_e2600ac-c2 \
@@ -105,6 +106,7 @@ $(eval $(call generate-ipq-wifi-package,glinet_gl-ap1300,GL.iNet GL-AP1300))
 $(eval $(call generate-ipq-wifi-package,glinet_gl-b2200,GL.iNet GL-B2200))
 $(eval $(call generate-ipq-wifi-package,glinet_gl-s1300,GL.iNet GL-S1300))
 $(eval $(call generate-ipq-wifi-package,linksys_ea8300,Linksys EA8300))
+$(eval $(call generate-ipq-wifi-package,linksys_whw03v2,Linksys WHW03V2))
 $(eval $(call generate-ipq-wifi-package,p2w_r619ac,P&W R619AC))
 $(eval $(call generate-ipq-wifi-package,qxwlan_e2600ac-c1,Qxwlan E2600AC C1))
 $(eval $(call generate-ipq-wifi-package,qxwlan_e2600ac-c2,Qxwlan E2600AC C2))
